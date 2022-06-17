@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+/*
+NAVBAR
+*/
+
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -53,4 +57,47 @@ button {
 }
 button:hover {
     background-color: rgba(0,136,169,0.7);
+}
+
+/* About page 
+*/
+
+.background-about{
+    
+}
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:  0 3rem;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+.name {
+    color: rgba(0,136,169,0.7);
+    font-size:  4rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    
+    
+}
+.title {
+    color: #777;
+    font-size:  2rem;
+    margin-top: 1rem;
+
+}
+.Dylan-image {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    height:min-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.info {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
 }
