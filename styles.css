@@ -99,8 +99,9 @@ INDEX page
 /* About page 
 */
 
-.background-about{
-    
+.wrapper_about {
+    background-color: #f2b426;
+
 }
 .content{
     max-width: 1100px;
@@ -143,6 +144,12 @@ INDEX page
 
 /* Services page 
 */
+
+.wrapper_services {
+    background-color: #f2b426;
+
+}
+
 .Converter{
     display: flex;
     margin:0;
@@ -180,4 +187,12 @@ input{
     border: 2px solid ;
     margin-top: 8px;
     padding: 0 10px;
+}
+
+/*
+Project page
+*/
+
+.wrapper_project {
+    background-color: #f2b426;
 }
