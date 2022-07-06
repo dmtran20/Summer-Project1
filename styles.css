@@ -59,6 +59,43 @@ button:hover {
     background-color: rgba(0,136,169,0.7);
 }
 
+/*
+INDEX page
+*/
+
+.wrapper {
+    background-image: url(images/clock.png);
+    height: 100vh;
+
+}
+.center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-family: sans-serif;
+}
+
+/*
+ transform: translate(-20%, 100%);
+*/
+.center h1{
+    font-size: 65px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    font-size: 50px;
+    font-weight: bold;
+    width: 880px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
 /* About page 
 */
 
